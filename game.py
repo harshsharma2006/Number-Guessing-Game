@@ -20,12 +20,12 @@ def start_game():
                 break
             
             elif user_guess > secret_number:
-                print("Too High! (Thoda chhota number sochiye)")
+                print("Too High! (Number should be smaller))")
             
             else:
-                print("Too Low! (Thoda bada number sochiye)")
+                print("Too Low! (Number should be bigger)")
 
         except ValueError:
-            print("Error: Kripya sirf number likhein.")
+            print("Error: Only Numbers are allowed!!")
 
 start_game()
